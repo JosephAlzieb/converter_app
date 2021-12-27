@@ -1,16 +1,12 @@
 # converter_app
 
-the first flutter_app I made
+## this was the first app I made with flutter. with this app you could convert meters in cm, mm, .. etc.
 
-## Getting Started
+### scroll down to see some screenshots fo the app
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![foxdemo](https://github.com/JosephAlzieb/converter_app/blob/master/screenshots/1.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![foxdemo](https://github.com/JosephAlzieb/converter_app/blob/master/screenshots/2.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![foxdemo](https://github.com/JosephAlzieb/converter_app/blob/master/screenshots/3.png)
