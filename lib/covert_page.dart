@@ -24,6 +24,11 @@ class _ConvertPageState extends State<ConvertPage> {
     return m_cm;
   }
 
+  double convert_from_m_to_mm(m) {
+    m_mm = m * 1000;
+    return m_mm;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
