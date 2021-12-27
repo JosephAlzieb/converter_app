@@ -9,6 +9,15 @@ class ConvertPage extends StatefulWidget {
 
 class _ConvertPageState extends State<ConvertPage> {
   var myControler = TextEditingController();
+  var m_km = 0.0;
+  var m_cm = 0.0;
+  var m_mm = 0.0;
+  var m_nm = 0.0;
+
+  double convert_from_m_to_km(m) {
+    m_km = m / 1000;
+    return m_km;
+  }
 
   @override
   Widget build(BuildContext context) {
