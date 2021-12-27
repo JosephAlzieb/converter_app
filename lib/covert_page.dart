@@ -50,12 +50,11 @@ class _ConvertPageState extends State<ConvertPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const SizedBox(height: 30),
                 Container(
                     margin: const EdgeInsets.all(8.0),
                     child: TextField(
                       style: const TextStyle(color: Colors.white, fontSize: 25),
-                      scrollPadding: const EdgeInsets.all(20.0),
+                      scrollPadding: const EdgeInsets.all(10.0),
                       decoration: InputDecoration(
                         labelText: "Enter meters",
                         labelStyle:
@@ -71,27 +70,24 @@ class _ConvertPageState extends State<ConvertPage> {
                       keyboardType: TextInputType.number,
                       controller: myControler,
                     )),
-                const SizedBox(height: 30),
+                // const SizedBox(height: 30),
                 Container(
                   margin: const EdgeInsets.all(12.0),
                   width: 300.0,
                   child: Text("Kilometers result:\n$m_km  Km",
                       style: const TextStyle(fontSize: 20, color: Colors.white)),
                 ),
-                const SizedBox(height: 30),
                 Container(
                     margin: const EdgeInsets.all(12.0),
                     width: 300.0,
                     child: Text("Centimeters result:\n$m_cm  Cm",
                         style: const TextStyle(fontSize: 20, color: Colors.white))),
-                const SizedBox(height: 30),
                 Container(
                   width: 300.0,
                   margin: const EdgeInsets.all(12.0),
                   child: Text("Millimeters result:\n$m_mm  Mm",
                       style: const TextStyle(fontSize: 20, color: Colors.white)),
                 ),
-                const SizedBox(height: 20),
                 Container(
                   width: 300.0,
                   margin: const EdgeInsets.all(12.0),
@@ -99,7 +95,6 @@ class _ConvertPageState extends State<ConvertPage> {
                   child: Text("Nanometers result:\n$m_nm  Nm",
                       style: const TextStyle(fontSize: 20, color: Colors.white)),
                 ),
-                const SizedBox(height: 30),
                 Container(
                     margin: const EdgeInsets.all(12.0),
                     child: FlatButton(
