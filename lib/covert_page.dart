@@ -14,6 +14,8 @@ class _ConvertPageState extends State<ConvertPage> {
   var m_mm = 0.0;
   var m_nm = 0.0;
 
+  String str = "0.0";
+
   double convert_from_m_to_km(m) {
     m_km = m / 1000;
     return m_km;
@@ -115,10 +117,10 @@ class _ConvertPageState extends State<ConvertPage> {
                           BorderRadius.all(Radius.circular(20.0))),
                       onPressed: () => setState(() {
                         myControler.text = "";
-                        // m_km = 0.0;
-                        // m_cm = 0.0;
-                        // m_mm = 0.0;
-                        // m_nm = 0.0;
+                        m_km = 0.0;
+                        m_cm = 0.0;
+                        m_mm = 0.0;
+                        m_nm = 0.0;
                       }),
                     ))
               ],
@@ -129,11 +131,11 @@ class _ConvertPageState extends State<ConvertPage> {
         backgroundColor: Colors.white,
         child: const Text("Conv.", style: TextStyle(color: Colors.deepPurple)),
         onPressed: () => setState(() {
-          // str = myControler.text.replaceAll(',', '.');
-          // convert_from_m_to_km(double.parse(str));
-          // convert_from_m_to_cm(double.parse(str));
-          // convert_from_m_to_mm(double.parse(str));
-          // convert_from_m_to_nm(double.parse(str));
+          str = myControler.text.replaceAll(',', '.');
+          convert_from_m_to_km(double.parse(str));
+          convert_from_m_to_cm(double.parse(str));
+          convert_from_m_to_mm(double.parse(str));
+          convert_from_m_to_nm(double.parse(str));
         }),
         tooltip: 'Click to covert',
       ), // This trailing comma makes auto-formatting nicer for build methods.
