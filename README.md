@@ -5,8 +5,13 @@
 ### scroll down to see some screenshots fo the app
 
 
-![foxdemo](https://github.com/JosephAlzieb/converter_app/blob/master/screenshots/1.png)
+<img src="https://github.com/JosephAlzieb/converter_app/blob/master/screenshots/1.png" width="290" height="490">
 
-![foxdemo](https://github.com/JosephAlzieb/converter_app/blob/master/screenshots/2.png)
+___
+___
+<img src="https://github.com/JosephAlzieb/converter_app/blob/master/screenshots/2.png" width="290" height="490">
 
-![foxdemo](https://github.com/JosephAlzieb/converter_app/blob/master/screenshots/3.png)
+___
+___
+<img src="https://github.com/JosephAlzieb/converter_app/blob/master/screenshots/3.png" width="290" height="490">
+
